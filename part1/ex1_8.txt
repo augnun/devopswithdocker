@@ -1,0 +1,12 @@
+FROM ubuntu:18.04
+
+WORKDIR /usr/src/app
+
+CMD ["/bin/sh"]
+
+COPY script.sh .
+
+RUN apt-get update && apt-get install -yqq curl 
+
+CMD ./script.sh
+docker run -it curler

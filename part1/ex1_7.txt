@@ -1,0 +1,4 @@
+FROM devopsdockeruh/simple-web-service:alpine
+
+CMD  /usr/src/app/server 
+docker run web-server server

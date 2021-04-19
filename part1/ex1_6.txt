@@ -1,0 +1,11 @@
+# For pulling the image
+docker run -it devopsdockeruh/pull_exercise
+
+# Navigating to docker hub with duckduckgo bangs on Firefox
+!dockerhub -it devopsdockeruh/pull_exercise
+
+# Password
+basics
+
+# Secret Message
+"This is the secret message"
